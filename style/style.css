@@ -190,3 +190,15 @@ section {
   border: none;
   background-color: #e6e6e6;
 }
+
+.footer {
+  background-color: rgb(18, 21, 51);
+  padding: 40px;
+  margin-top: 100px;
+  color: tomato;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+}
