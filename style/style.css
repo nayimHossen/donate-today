@@ -4,6 +4,30 @@
   font-family: "Open Sans", sans-serif;
 }
 
+section {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.section-title h2 {
+  font-size: 43px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.section-title p {
+  font-size: 16px;
+  color: #575757;
+}
+
+/* header styles */
 .header {
   height: 670px;
   background-image: url("../images/donation1.jpg");
@@ -46,4 +70,43 @@
   font-weight: bold;
   font-size: 18px;
   border: none;
+}
+
+/* our donate section style */
+
+.donate-plane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.donate {
+  background-color: #f0f0f0;
+  padding: 35px;
+  font-weight: bold;
+  color: #464646;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.active {
+  background-color: rgb(255, 227, 222);
+  border: 3px solid tomato;
+}
+
+.input-form {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.input-number {
+  width: 40%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
 }
