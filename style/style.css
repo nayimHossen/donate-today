@@ -141,3 +141,52 @@ section {
 .two {
   background-color: rgb(255, 255, 210);
 }
+
+.donate-album-section {
+  margin-top: 100px;
+}
+
+.donate-album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.donate-img {
+  width: 500px;
+  border-radius: 5px;
+}
+
+.donate-info h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.donate-info p {
+  margin-bottom: 20px;
+  color: #7e7d7d;
+}
+
+.donate-two {
+  margin-top: 100px;
+}
+
+.subscribe {
+  background-color: rgb(255, 244, 195);
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.text-input {
+  padding: 18px;
+  width: 300px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #e6e6e6;
+}
