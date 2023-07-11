@@ -84,7 +84,7 @@ section {
 
 .donate {
   background-color: #f0f0f0;
-  padding: 35px;
+  padding: 35px 20px;
   font-weight: bold;
   color: #464646;
   border-radius: 5px;
@@ -109,4 +109,35 @@ section {
   border: none;
   outline: none;
   font-size: 18px;
+}
+
+/* our donate plane */
+
+.plane-container {
+  display: flex;
+  gap: 25px;
+}
+
+.donate-card {
+  margin-top: 40px;
+  padding: 60px 30px;
+  background-color: rgb(236, 246, 252);
+  border-radius: 5px;
+}
+
+.donate-card h3 {
+  margin: 15px 0px;
+  font-size: 24px;
+}
+
+.donate-card p {
+  color: #747474;
+}
+
+.one {
+  background-color: rgb(255, 226, 221);
+}
+
+.two {
+  background-color: rgb(255, 255, 210);
 }
