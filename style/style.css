@@ -70,6 +70,11 @@ section {
   font-weight: bold;
   font-size: 18px;
   border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-primary:hover {
+  background-color: #222;
 }
 
 /* our donate section style */
@@ -189,6 +194,7 @@ section {
   border-radius: 5px;
   border: none;
   background-color: #e6e6e6;
+  color: blue;
 }
 
 .footer {
